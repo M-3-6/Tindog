@@ -1,0 +1,114 @@
+/* color */
+.white-text, .dark-pink{
+  background-color: #ff4c68;
+  color:#fff;
+}
+.black-text, .white{
+  color: #000;
+  background-color: #fff;
+}
+.peach{
+  background-color:#ef8172;
+}
+.features-icon {
+  color: #ef8172;
+}
+#features p, #footer p {
+  color: #8f8f8f;
+}
+.features-icon:hover {
+  color: #ff4c68;
+}
+/* font-family , line-height and font-weight*/
+h1, h2 , h3{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+a, p{
+  font-family: 'Ubuntu', sans-serif;
+}
+/* font-size */
+h1{
+  font-size: 3rem;
+}
+h2, .navbar-brand{
+  font-size: 2.3rem
+}
+h3, .nav-link{
+  font-size: 2rem
+}
+/* text-align */
+body{
+  text-align:center;
+}
+/* padding */
+.boxes, #testimonials, .carousel-item{
+  padding: 10%;
+}
+#pricing,.navbar-item img,.features-icon, #cta,.testimonial-img,#footer{
+  padding: 5%;
+}
+/* mixed */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.iphone {
+  transform: rotate(25deg);
+  width: 50%;
+  padding-top: 5%;
+  position:absolute;
+  right: 20%;
+}
+@media (max-width:992px){
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+}
+.container-fluid{
+  padding: 3% 15%;
+  padding-bottom: 6%;
+}
+.download-button {
+  margin: 5% 3% 2% 0;
+}
+#features{
+  position: relative;
+  z-index: 1;
+}
+.testimonial-img, .carousel-item img {
+  border-radius: 100%;
+  width: 25%;
+}
+#testimonials h2 {
+  padding: 0 10%;
+}
+#press {
+  padding-bottom: 3%;
+}
+.press {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+.carousel-item h2 {
+  padding: 10% 10% 0;
+}
+.price{
+  padding:1% 2%;
+}
+.card-header .card-body{
+  padding: 0;
+}
+.footer-icon span{
+  padding: 1%;
+}
+.footer-icon{
+  padding-bottom: 2%;
+}
